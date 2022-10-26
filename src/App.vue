@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <Counter />
+  <history />
 </template>
 
 <script>
 import Counter from './components/Counter.vue';
+import History from './components/History.vue';
 
 export default {
   name: "App",
   components: {
-    Counter
+    Counter,
+    History
   },
 };
 </script>
